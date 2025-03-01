@@ -1,0 +1,23 @@
+
+DATA_DIR = "dataset"
+GESTURES = ["thumbs_up", "thumbs_down", "peace", "fist", "open_palm"]
+SAMPLES_PER_GESTURE = 100
+IMG_SIZE = (128, 128) 
+
+MODEL_NAME = "hand_gesture_model"
+MODEL_PATH = f"models/{MODEL_NAME}.h5"
+BATCH_SIZE = 32
+EPOCHS = 10
+VALIDATION_SPLIT = 0.2
+LEARNING_RATE = 0.001
+
+CAMERA_ID = 0 
+DETECTION_CONFIDENCE = 0.5
+TRACKING_CONFIDENCE = 0.5
+
+
+WINDOW_NAME = "Hand Gesture Recognition"
+TEXT_COLOR = (255, 255, 255)
+TEXT_POSITION = (20, 20)
+FONT_SCALE = 0.8
+FONT_THICKNESS = 2
